@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(61, 123, 162);
+  background: linear-gradient(
+    90deg,
+    rgba(61, 123, 162, 0.9009804605435925) 16%,
+    rgba(45, 92, 130, 0.9009804605435925) 35%,
+    rgba(0, 212, 255, 1) 66%,
+    rgba(0, 179, 255, 1) 79%,
+    rgba(0, 144, 255, 1) 92%
+  );
+  color: white;
+}
+
+.sec {
+  border-bottom: 1px solid white;
+  margin: 0;
+  padding: 15px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.first {
+  display: flex;
+  column-gap: 2rem;
+}
+
+.secornd {
+  display: flex;
+}
+
+.third {
+  display: flex;
+  column-gap: 2rem;
+}
+
+i {
+  transform: rotate(45deg);
+}
+
+.low {
+  display: flex;
+  flex-direction: column; /* it helps change it to style block  */
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.low h1 {
+  font-size: 4rem;
+  max-width: 450px;
+}
+
+.low i {
+  border: 1px solid white;
+  width: 10px;
+  height: 10px;
+  border-radius: 10%;
+}
